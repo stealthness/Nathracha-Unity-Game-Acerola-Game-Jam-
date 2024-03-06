@@ -12,5 +12,10 @@ public class TestManager : MonoBehaviour
             Debug.Log("TM::Escape");
             GameManager.Instance.PauseGame();
         }
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Debug.Log("TM::Space");
+            GameManager.Instance.GameOver();
+        }
     }
 }
