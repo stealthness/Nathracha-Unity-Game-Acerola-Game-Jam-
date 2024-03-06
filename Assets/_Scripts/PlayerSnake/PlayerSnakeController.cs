@@ -1,8 +1,9 @@
 using UnityEngine;
 
+
 public class PlayerSnakeController : MonoBehaviour
 {
-    Vector2 _direction;
+    public Vector2 _direction { get; private set; }
 
 
     private void Update()
