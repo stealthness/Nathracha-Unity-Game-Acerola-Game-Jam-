@@ -10,6 +10,7 @@ public class TestManager : MonoBehaviour
         if ( Input.GetKeyDown(KeyCode.Escape))
         {
             Debug.Log("TM::Escape");
+            GameManager.Instance.PauseGame();
         }
     }
 }
